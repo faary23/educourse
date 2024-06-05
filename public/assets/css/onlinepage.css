@@ -1,0 +1,276 @@
+/* Base styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1679AB; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #074173;
+    padding: 20px 40px;
+    height: 45px;
+}
+
+.logo img {
+    height: 100%; 
+    width: 50%; 
+    margin-left: 20%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 1.5em;
+    font-style: italic;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.search-container button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    background-color: #1679AB;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a,
+.nav-links .dropbtn {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    margin-left: 20px;
+    font-size: 1.5em;
+}
+
+.nav-links a:hover,
+.nav-links .dropdown-content a:hover {
+    border-radius: 5px;
+}
+
+/* Dropdown */
+.dropbtn {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 10%;
+}
+
+.dropdown-content a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* CSS for Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+.navbar-mobile.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333; 
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: 0;
+    padding-top: 20px; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-mobile .nav-link {
+    margin-bottom: 10px; 
+    color: #fff; 
+    text-decoration: none;
+}
+
+/* Card */
+.card-container {
+    position: relative;
+    left: 0;
+    width: 90%; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    margin: 30px auto; 
+    margin-bottom: 5%;
+}
+
+.card {
+    flex: 1 1 calc(25% - 30px); 
+    max-width: calc(25% - 30px);
+    max-height: auto; 
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 15px; 
+    transition: transform 0.3s ease; /* Menambahkan transisi smooth */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Menggeser card ke atas ketika di-hover */
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto; 
+    object-fit: cover; 
+}
+
+.card-content {
+    max-height: fit-content;
+    padding: 30px;
+}
+
+.card-content h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    background-color: #074173;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+}
+
+/* Responsive styles */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .card-container {
+        justify-content: space-between; 
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 30px); 
+        max-width: calc(50% - 30px); 
+        margin-bottom: 30px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .search-container {
+        display: none; 
+    }
+
+    .hamburger {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 1;
+        right: 10%;
+        justify-content: center;
+        align-items: center; 
+        width: 100%; 
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #074173;
+        z-index: 1;
+    }
+
+    .nav-links a {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav-links a:hover {
+        background-color: rgba(255,255,255,0.1);
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .card {
+        flex: 1 1 100%; 
+        max-width: 90%; 
+    }
+
+}
