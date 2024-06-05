@@ -41,25 +41,25 @@
 
     <div class="card-container">
         <div class="card">
-            <a href="#"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
+            <a href="{{ route('detail') }}"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
             <div class="card-content">
                 <h2>Online</h2> 
             </div>
         </div>
         <div class="card">
-            <a href="#"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
+            <a href="{{ route('detail') }}"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
             <div class="card-content">
                 <h2>Offline</h2>   
             </div>
         </div>
         <div class="card">
-            <a href="#"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
+            <a href="{{ route('detail') }}"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
             <div class="card-content">
                 <h2>Online</h2>             
             </div>
         </div>
         <div class="card">
-            <a href="#"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
+            <a href="{{ route('detail') }}"><img src="{{ asset('assets/img/bimbel.jpg') }}" alt="Card Image"></a>
             <div class="card-content">
                 <h2>Offline</h2>
             </div>
