@@ -257,7 +257,7 @@ body {
     .three-column-section {
         flex-direction: column;
         align-items: center;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
     }
     
     .column {
@@ -265,5 +265,3 @@ body {
         max-width: 90%; 
     }
 }
-
-
