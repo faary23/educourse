@@ -3,7 +3,7 @@
 
 ## Dashboard
 - Berisi navigation bar yang terdapat beberapa fitur, diantaranya:
-    1 Search bar
+    1 Search bar <br />
     II. Home
     III. Kategori
     IV. About
