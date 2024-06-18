@@ -2,6 +2,7 @@
 **“eduCourse”** merupakan sebuah website yang hadir tidak hanya menyediakan informasi kursus secara komprehensif, tetapi dilengkapi dengan fitur-fitur canggih untuk memenuhi kebutuhan pengguna yang menjadi penghubung antara lembaga kursus dengan user. Dengan menawarkan kategori yang terstruktur dan pemisahan antara kursus online dan offline, platform tersebut dapat menjadi pilihan utama bagi siapapun yang mencari pengalaman pembelajaran yang terkemuka. 
 
 ## Dashboard
+<img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/dashboard.png" width="400" alt="Dashboard page">
 - Berisi navigation bar yang terdapat beberapa fitur, diantaranya:<br />
     1 Search bar <br/>
     2 Home <br />
