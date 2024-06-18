@@ -17,12 +17,14 @@
 <p align="center">
     <img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/SearchPage.png" width="400" alt="Search page">
 </p>
+
 -  Berisi kumpulan kursus berdasarkan kata kunci pertama yang diinputkan.
 ## Kategori
 ### OnLine
 <p align="center">
     <img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/OnlinePage.png" width="400" alt="Search page">
 </p>
+
 -  Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya: <br />
     1 Search bar <br />
     2. Home <br />
