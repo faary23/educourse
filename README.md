@@ -3,33 +3,33 @@
 
 ## Dashboard
 - Berisi navigation bar yang terdapat beberapa fitur, diantaranya:
-    1. Search bar
-    2. Home
-    3. Kategori
-    4. About
+    I. Search bar
+    II. Home
+    III. Kategori
+    IV. About
 - Berisi beberapa pilihan kursus terfavorite
 ## Kategori
 ### OnLine
 - Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya:
-    1. Search bar
-    2. Home
-    3. Kategori
-    4. About
+    I. Search bar
+    II. Home
+    III. Kategori
+    IV. About
 ### OffLine
 - Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya:
-    1. Search bar
-    2. Home
-    3. Kategori
-    4. About
+    I. Search bar
+    II. Home
+    III. Kategori
+    IV. About
 ## Detail Kursus
 - Berisi informasi lengkap mengenai:
-  1. Nama kursus
-  2. Deskripsi kursus
-  3. Kategori kursus
+    I. Nama kursus
+    II. Deskripsi kursus
+    III. Kategori kursus
       - link (dalam bentuk alamat website jika kursus dilaksanakan secara online)
       - lokasi (dalam bentuk link google maps jika kursus dilaksanakan secara offline)
 ## About
-- Berisi tentang company profile dari team capstone project C624-PS040 (DigiCode) yang beranggotakan tiga orang
-  1. <a href="https://linkedin.com/in/octaviadamai">Octavian Damai Putri</a>
-  2. <a href="https://linkedin.com/in/netania-indria-wihastuti-85999b287">Netania Indria Wihastuti</a>
-  3. <a href="https://linkedin.com/in/faryotaa">Faryota Arimaha Rizqi</a>
+- Berisi tentang company profile dari team capstone project C624-PS040 (DigiCode) yang beranggotakan tiga peserta
+    I. <a href="https://linkedin.com/in/octaviadamai">Octavian Damai Putri</a>
+    II. <a href="https://linkedin.com/in/netania-indria-wihastuti-85999b287">Netania Indria Wihastuti</a>
+    III. <a href="https://linkedin.com/in/faryotaa">Faryota Arimaha Rizqi</a>
