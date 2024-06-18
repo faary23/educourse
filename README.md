@@ -34,6 +34,7 @@
 <p align="center">
     <img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/OfflinePage.png" width="400" alt="Search page">
 </p>
+
 -  Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya: <br />
     1 Search bar <br />
     2 Home <br />
@@ -43,6 +44,7 @@
 <p align="center">
     <img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/DetailPage.png" width="400" alt="Search page">
 </p>
+
 -  Berisi informasi lengkap mengenai: <br />
     1 Nama kursus <br />
     2 Deskripsi kursus <br />
@@ -53,6 +55,7 @@
 <p align="center">
     <img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/about.png" width="400" alt="Search page">
 </p>
+
 -  Berisi tentang company profile dari team capstone project C624-PS040 (DigiCode) yang beranggotakan tiga peserta<br /> 
     1 <a href="https://linkedin.com/in/octaviadamai">Octavian Damai Putri</a> <br />
     2 <a href="https://linkedin.com/in/netania-indria-wihastuti-85999b287">Netania Indria Wihastuti</a> <br />
