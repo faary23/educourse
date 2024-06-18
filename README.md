@@ -10,26 +10,26 @@
 - Berisi beberapa pilihan kursus terfavorite
 ## Kategori
 ### OnLine
-- Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya:
-    I. Search bar
-    II. Home
-    III. Kategori
-    IV. About
+- Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya: <br />
+    1 Search bar <br />
+    2. Home <br />
+    3 Kategori <br />
+    4 About <br />
 ### OffLine
-- Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya:
-    I. Search bar
-    II. Home
-    III. Kategori
-    IV. About
+- Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya: <br />
+    1 Search bar <br />
+    2 Home <br />
+    3 Kategori <br />
+    4 About <br />
 ## Detail Kursus
-- Berisi informasi lengkap mengenai:
-    I. Nama kursus
-    II. Deskripsi kursus
-    III. Kategori kursus
-      - link (dalam bentuk alamat website jika kursus dilaksanakan secara online)
-      - lokasi (dalam bentuk link google maps jika kursus dilaksanakan secara offline)
+- Berisi informasi lengkap mengenai: <br />
+    1 Nama kursus <br />
+    2 Deskripsi kursus <br />
+    3 Kategori kursus <br />
+      - link (dalam bentuk alamat website jika kursus dilaksanakan secara online) <br />
+      - lokasi (dalam bentuk link google maps jika kursus dilaksanakan secara offline) <br />
 ## About
-- Berisi tentang company profile dari team capstone project C624-PS040 (DigiCode) yang beranggotakan tiga peserta
-    I. <a href="https://linkedin.com/in/octaviadamai">Octavian Damai Putri</a>
-    II. <a href="https://linkedin.com/in/netania-indria-wihastuti-85999b287">Netania Indria Wihastuti</a>
-    III. <a href="https://linkedin.com/in/faryotaa">Faryota Arimaha Rizqi</a>
+- Berisi tentang company profile dari team capstone project C624-PS040 (DigiCode) yang beranggotakan tiga peserta<br /> 
+    1 <a href="https://linkedin.com/in/octaviadamai">Octavian Damai Putri</a> <br />
+    2 <a href="https://linkedin.com/in/netania-indria-wihastuti-85999b287">Netania Indria Wihastuti</a> <br />
+    3 <a href="https://linkedin.com/in/faryotaa">Faryota Arimaha Rizqi</a> <br />
