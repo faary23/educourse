@@ -27,6 +27,11 @@ Route::get('/detail/{id?}', function ($id) {
     return view('detail', ['data' => $data]);
 })->name('detail');
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+
 Route::get('/search', [BimbelController::class, 'search'])->name('search');
 
 Route::get('/bimbel', [BimbelController::class, 'getBimbel']);
