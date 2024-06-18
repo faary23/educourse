@@ -3,13 +3,14 @@
 
 ## Dashboard
 <p align="center">
-    <a href="https://laravel.com" target="_blank"><img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/dashboard.png" width="400" alt="Dashboard page"></a>
-- Berisi navigation bar yang terdapat beberapa fitur, diantaranya: <br />
+    <a href="https://laravel.com" target="_blank"><img src="https://github.com/faary23/educourse/blob/main/public/assets/documentation/dashboard.png" width="400" alt="Dashboard page"></a></p>
+    
+-  Berisi navigation bar yang terdapat beberapa fitur, diantaranya: <br />
     1 Search bar <br />
     2 Home <br />
     3 Kategori<br />
     4 About<br />
-- Berisi beberapa pilihan kursus terfavorite<br /></p>
+- Berisi beberapa pilihan kursus terfavorite<br />
 
 ## Search
 - Berisi kumpulan kursus berdasarkan kata kunci pertama yang diinputkan.
