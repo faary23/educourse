@@ -46,7 +46,7 @@
     <!-- New Section with Three Columns -->
     <div class="three-column-section">
         <div class="column">
-            <img src="assets/img/cewe.jpg" alt="Image 1">
+            <img src="assets/img/octa.png" alt="Image 1">
             <h2>Octavian Damai Putri</h2>
             <p>Politeknik Negeri Banyuwangi<br>
                 "Integritas dalam Setiap Langkah"<br>
@@ -54,15 +54,15 @@
             </p>            
         </div>
         <div class="column">
-            <img src="assets/img/cewe.jpg" alt="Image 2">
+            <img src="assets/img/neta.jpg" alt="Image 2">
             <h2>Netania Indria Wihastuti</h2>
             <p>Universitas Gunadarma<br>
-                "Bersama Kita Kuat, Bersatu Kita Tak Terkalahkan"<br>
+                "There is no shortcut to perfection"<br>
                 <a href="https://linkedin.com/in/netania-indria-wihastuti-85999b287">linkedin.com/in/netania-indria-wihastuti</a>
             </p>
         </div>
         <div class="column">
-            <img src="assets/img/laki.jpg" alt="Image 3">
+            <img src="assets/img/yota.jpeg" alt="Image 3">
             <h2>Faryota Arimaha Rizqi</h2>
             <p>Politeknik Negeri Banyuwangi<br>
                 "Berani Bermimpi, Berani Beraksi"<br>
@@ -72,7 +72,7 @@
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 Educourse</p>
+        <p>&copy; 2024 Digicode</p>
     </footer>
 
     <script src="assets/js/script.js"></script>

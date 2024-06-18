@@ -8,14 +8,17 @@ body {
 }
 
 .navbar {
+    position:fixed;
     display: flex;
     align-items: center;
     background-color: #074173;
     padding: 20px 40px;
     height: 45px;
+    width: 97%;
+    top: 0;
     justify-content: space-between; 
+    z-index: 1000;
 }
-
 .logo {
     flex-shrink: 0; 
 }
@@ -170,11 +173,12 @@ body {
 .card-container {
     position: relative;
     left: 0;
-    width: 90%;
+    width: 90%; 
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 30px auto;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    margin: 30px auto; 
+    margin-top: 8%;
     margin-bottom: 5%;
 }
 
@@ -197,8 +201,10 @@ body {
 .card img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 270px; /* Fixed height to ensure all images are the same size */
+    border-radius: 10px;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .card-content {

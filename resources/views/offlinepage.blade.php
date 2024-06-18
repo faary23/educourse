@@ -50,7 +50,7 @@
     </div>
 
     <footer class="footer">
-        <p>&copy; 2024 Educourse</p>
+        <p>&copy; 2024 Digicode</p>
     </footer>
 
     <script src="{{ asset('assets/js/script.js') }}"></script>

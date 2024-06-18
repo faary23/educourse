@@ -8,12 +8,15 @@ body {
 }
 
 .navbar {
+    position:fixed;
     display: flex;
     align-items: center;
     background-color: #074173;
     padding: 20px 40px;
     height: 45px;
+    width: 97%;
     justify-content: space-between; 
+    z-index: 1000;
 }
 
 .logo {
@@ -193,7 +196,10 @@ body {
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 270px; /* Fixed height to ensure all images are the same size */
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .card-content {
