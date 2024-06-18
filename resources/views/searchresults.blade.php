@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educourse</title>
-    <!-- Tambahkan link ke Google Fonts -->
+    <title>Search Results</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('assets/css/detail.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/css/searchresults.css') }}" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo.png') }}">
 </head>
 <body>
@@ -38,18 +37,22 @@
         </div>
     </nav>
 
-    <div class="new-section">
-        <div class="image-column">
-            <a href="#"><img src="{{ asset('assets/img/'.$data->img) }}" alt="Card Image"></a>
-        </div>
-        <div class="text-column">
-            <h1>{{ $data->title }}</h1>
-            <h2>{{ $data->status }}</h2>
-            <h3>Deskripsi</h3>
-            <p>{{ $data->description }}</p>
-            <h3>LInk/Lokasi</h3> 
-            <a href="{{ $data->link }}">{{ $data->link }}</a>
-        </div>
+    <div class="card-container">
+        @if($data->isEmpty())
+            <p>No results found</p>
+        @else
+            @foreach ($data as $item)
+                <div class="card">
+                    <a href="{{ route('detail', ['id' => $item['id']]) }}">
+                        <img src="{{ asset('assets/img/'.$item['img']) }}" alt="Card Image">
+                    </a>
+                    <div class="card-content">
+                        <h2>{{ $item['name'] }}</h2>
+                        <h2>{{ $item['status'] }}</h2>
+                    </div>
+                </div>
+            @endforeach
+        @endif
     </div>
 
     <footer class="footer">

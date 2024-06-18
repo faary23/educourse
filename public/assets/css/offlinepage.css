@@ -13,6 +13,11 @@ body {
     background-color: #074173;
     padding: 20px 40px;
     height: 45px;
+    justify-content: space-between; 
+}
+
+.logo {
+    flex-shrink: 0;
 }
 
 .logo img {
@@ -22,39 +27,47 @@ body {
 }
 
 .search-container {
+    flex-grow: 1; 
     display: flex;
-    align-items: center;
-    flex-grow: 1;
+    justify-content: center;
+    margin: 0 20px; 
 }
 
-.search-container input {
+.search-container form {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+
+.search-container form input {
     padding: 10px;
     font-size: 1.5em;
     font-style: italic;
     border: none;
-    border-radius: 5px;
-    width: 100%;
-    text-align: center;
+    border-radius: 5px 0 0 5px;
+    text-align: left; 
+    flex-grow: 1; 
 }
 
-.search-container button {
-    padding: 12px 20px;
-    margin-left: 10px;
+.search-container form button {
+    padding: 10px 20px;
     background-color: #1679AB;
     color: white;
     border: none;
     font-size: 1.5em;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0; 
     cursor: pointer;
 }
 
-.search-container button:hover {
-    background-color: rgba(255,255,255,0.5);
+.search-container form button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav-links {
     display: flex;
     align-items: center;
+    justify-content: flex-end; 
+    flex-shrink: 0; 
 }
 
 .nav-links a,
@@ -163,11 +176,11 @@ body {
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin: 15px; 
-    transition: transform 0.3s ease; /* Menambahkan transisi smooth */
+    transition: transform 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-10px); /* Menggeser card ke atas ketika di-hover */
+    transform: translateY(-10px); 
 }
 
 .card img {
@@ -189,7 +202,7 @@ body {
 
 /* Footer */
 .footer {
-    position: fixed;
+    position: relative;
     background-color: #074173;
     color: white;
     text-align: center;
@@ -263,14 +276,17 @@ body {
     }
 
     .card-container {
-        flex-direction: column;
+        display: flex; 
+        flex-direction: column; 
         align-items: center;
         margin-bottom: 10%;
     }
 
     .card {
-        flex: 1 1 100%; 
+        flex: 1; 
         max-width: 90%; 
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px; 
     }
-
 }

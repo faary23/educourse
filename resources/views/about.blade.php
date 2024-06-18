@@ -7,6 +7,7 @@
     <!-- Tambahkan link ke Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo.png') }}">
 </head>
 <body>
     <nav class="navbar">
@@ -14,8 +15,10 @@
             <a href="#"><img src="{{ asset('assets/img/logo.png') }}" alt="Logo"></a>
         </div>
         <div class="search-container">
-            <input type="text" placeholder="search">
-            <button type="submit">Search</button>
+            <form action="{{ route('search') }}" method="GET">
+                <input type="text" name="query" placeholder="Search" value="{{ request()->input('query') }}">
+                <button type="submit">Search</button>
+            </form>
         </div>
         <div class="hamburger" onclick="toggleMenu()">
             <div class="bar"></div>
@@ -46,23 +49,25 @@
             <img src="assets/img/cewe.jpg" alt="Image 1">
             <h2>Octavian Damai Putri</h2>
             <p>Politeknik Negeri Banyuwangi<br>
-                Maju Tak Gentar<br>
+                "Integritas dalam Setiap Langkah"<br>
                 <a href="https://linkedin.com/in/octaviadamai">linkedin.com/in/octaviadamai</a>
             </p>            
         </div>
         <div class="column">
             <img src="assets/img/cewe.jpg" alt="Image 2">
             <h2>Netania Indria Wihastuti</h2>
-            <p>Mana yak lupa :v<br>
-                Aing Trobos barudak<br>
-                linkedin.com/in/netania</p>
+            <p>Universitas Gunadarma<br>
+                "Bersama Kita Kuat, Bersatu Kita Tak Terkalahkan"<br>
+                <a href="https://linkedin.com/in/netania-indria-wihastuti-85999b287">linkedin.com/in/netania-indria-wihastuti</a>
+            </p>
         </div>
         <div class="column">
             <img src="assets/img/laki.jpg" alt="Image 3">
             <h2>Faryota Arimaha Rizqi</h2>
             <p>Politeknik Negeri Banyuwangi<br>
-                Oke Boleh<br>
-                linkedin.com/in/faryotaari</p>
+                "Berani Bermimpi, Berani Beraksi"<br>
+                <a href="https://linkedin.com/in/faryotaa">linkedin.com/in/faryotaa</a>
+            </p>
         </div>
     </div>
 
