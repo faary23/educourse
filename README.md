@@ -8,6 +8,8 @@
     3 Kategori <br />
     4 About <br />
 - Berisi beberapa pilihan kursus terfavorite
+## Search
+Berisi kumpulan kursus berdasarkan kata kunci pertama yang diinputkan.
 ## Kategori
 ### OnLine
 - Berisi kumpulan kategori kursus online yang disertai beberapa fitur, diantaranya: <br />
