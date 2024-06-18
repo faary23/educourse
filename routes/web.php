@@ -21,10 +21,6 @@ Route::get('/offline', function () {
     return view('offlinepage', ['data' => $data]);
 })->name('offline');
 
-Route::get('/about', function () {
-    return view('about');
-})->name('about');
-
 Route::get('/detail/{id?}', function ($id) {
     $ctrl = new BimbelController();
     $data = $ctrl->getDetail($id);
@@ -34,3 +30,4 @@ Route::get('/detail/{id?}', function ($id) {
 Route::get('/search', [BimbelController::class, 'search'])->name('search');
 
 Route::get('/bimbel', [BimbelController::class, 'getBimbel']);
+
