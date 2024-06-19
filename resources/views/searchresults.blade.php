@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="dicoding:email" content="octaviadamai23@gmail.com">
     <meta name="dicoding:email" content="netania.indria@gmail.com">
     <meta name="dicoding:email" content="faryotaa@gmail.com">
     <title>Search Results</title>
