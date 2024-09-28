@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/detail.css') }}" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/logo.png') }}">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="logo">
@@ -43,15 +45,16 @@
 
     <div class="new-section">
         <div class="image-column">
-            <a href="#"><img src="{{ asset('assets/img/'.$data->img) }}" alt="Card Image"></a>
+            <a href="#"><img src="{{ asset('assets/img/' . $data->img) }}" alt="Card Image"></a>
         </div>
         <div class="text-column">
             <h1>{{ $data->title }}</h1>
             <h2>{{ $data->status }}</h2>
             <h3>Deskripsi</h3>
             <p>{{ $data->description }}</p>
-            <h3>LInk/Lokasi</h3> 
-            <a href="{{ $data->link }}">{{ $data->link }}</a>
+            <h3>LInk/Lokasi</h3>
+            <a href="https://www.google.com/maps?q={{ $data->link }}" target="_blank">{{ $data->link }}</a>
+
         </div>
     </div>
 
@@ -61,4 +64,5 @@
 
     <script src="{{ asset('assets/js/script.js') }}"></script>
 </body>
+
 </html>
